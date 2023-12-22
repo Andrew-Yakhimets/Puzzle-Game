@@ -31,7 +31,7 @@ public class PuzzleApp extends Application {
     private Button solveButton;
     private Button restartButton;
 
-    private final Map<String, double[]> puzzleToPlaceholder = new HashMap<>(); // <piece_id> -> <center of placeholder>
+    private final Map<String, double[]> puzzleToPlaceholder = new HashMap<>();
 
 
     @Override
